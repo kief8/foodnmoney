@@ -1,15 +1,15 @@
-html {
+html, body {
     overflow-x: hidden;
-}
-
-body {
+    width: 100%;
+    height: 100%;
     margin: 0;
-    overflow-x: hidden;
 }
 
 .flex-container {
-    display: flex;;
+    display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .head {
@@ -29,4 +29,9 @@ body {
     left: 92vw;
     top: -90%;
     padding: 20px;
+}
+
+.videoWrapper {
+    align-items: center;
+    justify-content: center;
 }
