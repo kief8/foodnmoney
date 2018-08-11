@@ -16,7 +16,7 @@ html, body {
     background-color: hotpink;
     max-width: 100%;
     max-height: 40vh;
-    padding-right: 100%;
+    padding-right: 80vw;
 }
 
 .head img {
@@ -27,11 +27,12 @@ html, body {
 .nav {
     position: relative;
     left: 92vw;
-    top: -90%;
+    top: -40vh;
     padding: 20px;
 }
 
 .videoWrapper {
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
