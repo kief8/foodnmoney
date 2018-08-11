@@ -50,17 +50,19 @@ html, body {
 }
 
 .about {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
 }
 
 .headshot {
-    display: inline-block;
+    max-height: auto;
+    max-width: 25%;
 }
 
 .textbox {
-    display: inline-block;
     background-color: hotpink;
-    max-width: 25%;
+    width: 25%;
+    height: auto;
 }
