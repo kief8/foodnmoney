@@ -24,6 +24,7 @@ html, body {
     max-width: 100%;
     max-height: 40vh;
     padding-right: 80vw;
+    border-bottom: 3px solid #400040; 
 }
 
 .head img {
