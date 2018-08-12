@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* FONTS */
+@font-face {
+    font-family: "salad";
+    src: url("../fonts/timeforsalad.ttf");
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    max-width: 50%;
+}
+
+h1 {
+    font-family: "Quicksand";
+    font-size: 130px;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 4px black;
+}
