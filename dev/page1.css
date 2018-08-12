@@ -6,6 +6,12 @@ html, body {
     background-color: white;
 }
 
+/* FONTS */
+@font-face {
+    font-family: "salad";
+    src: url("../fonts/timeforsalad.ttf");
+}
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -30,7 +36,7 @@ html, body {
 .topButtons {
     display: inline;
     position: relative;
-    left: 83vw;
+    left: 82vw;
     top: -38.5vh;
     padding: 20px;
 }
@@ -42,8 +48,9 @@ html, body {
 .tagline {
     text-align: center;
     padding: 30px 30px 0px 30px;
-    font-family: "Song Myung";
+    font-family: "Quicksand";
     font-size: 18px;
+    font-weight: 500;
 }
 
 .videoWrapper {
@@ -62,7 +69,10 @@ html, body {
 }
 
 .divide p {
-    font-size: 25px;
+    font-size: 42px;
+    color: white;
+    font-family: "salad";
+    -webkit-text-stroke: 2px black;
 }
 
 .fnmDescription {
@@ -73,9 +83,29 @@ html, body {
     padding-bottom: 45px;
 }
 
+.fnmDescription h1 {
+    font-size: 50px;
+    font-family: "Quicksand";
+    color: Black;
+    letter-spacing: 5px;
+    position: relative;
+    top: -20px;
+}
+
 .synopsis {
-    font-family: "Song Myung";
+    font-family: "Quicksand";
     font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#subscribe {
+    font-family: "salad";
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    position: relative;
+    bottom: -15px;
     padding: 10px;
 }
 
@@ -91,30 +121,12 @@ html, body {
     margin: auto;
 }
 
-.headshot {
-    max-height: auto;
-    max-width: 25%;
-}
-
-.textbox {
-    background-color: hotpink;
-    width: 25%;
-    height: auto;
-}
-
-.textbox p {
-    text-align: right;
-    font-family: "Song Myung";
-    font-size: 15px;
-    padding: 10px;
-    position: relative;
-    top: -5px;
-}
-
 .footer {
     background-color: orange;
     padding: 40px 40px 20px 40px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: "Quicksand";
+    font-weight: 400;
 }
