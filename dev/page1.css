@@ -20,7 +20,7 @@ html, body {
 }
 
 .head {
-    background-color: orange;
+    background-color: #FFAE19;
     max-width: 100%;
     max-height: 40vh;
     padding-right: 80vw;
@@ -49,8 +49,8 @@ html, body {
     font-size: 40px;
     padding: 10px;
     border: 0;
-    background-color: orange;
-    color: purple;
+    background-color: #FFAE19;
+    color: #400040;
 }
 
 button {
@@ -98,7 +98,7 @@ button {
 .fnmDescription h1 {
     font-size: 50px;
     font-family: "Quicksand";
-    color: purple;
+    color: #400040;
     letter-spacing: 5px;
     position: relative;
     top: -20px;
@@ -144,7 +144,7 @@ button {
 }
 
 .footer {
-    background-color: orange;
+    background-color: #FFAE19;
     padding: 40px 40px 20px 40px;
     justify-content: center;
     align-items: center;
