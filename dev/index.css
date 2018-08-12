@@ -43,8 +43,9 @@ h1 {
     font-size: 120px;
     font-weight: 700;
     color: #400040;
-    text-align: center;
+    text-align: left;
     letter-spacing: 5px;
+    margin-left: 25px;
 }
 
 .resizeText {
