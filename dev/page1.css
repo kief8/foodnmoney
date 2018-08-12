@@ -30,9 +30,13 @@ html, body {
 .topButtons {
     display: inline;
     position: relative;
-    left: 90vw;
-    top: -40vh;
+    left: 83vw;
+    top: -38.5vh;
     padding: 20px;
+}
+
+.topButtons button {
+    padding: 18px;
 }
 
 /* 
