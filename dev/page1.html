@@ -22,12 +22,30 @@
         
         <div class="head">
             <img src="../img/mainTitle_vector.png">
+            
+            <!-- BUTTONS --> 
+            
             <div class="topButtons">
                 <button id="socialMedia"><i class="fab fa-facebook"></i></button>
                 <button id="socialMedia"><i class="fab fa-youtube-square"></i></button>
                 <button id="socialMedia"><i class="fab fa-instagram"></i></button>
-                <button id="socialMedia"><i class="fas fa-bars"></i></button>
-            </div>
+               
+                
+                <!-- DROPDOWN BUTTON -->
+                
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Home</a>
+                        <a href="#">Shitty Roommate</a>
+                        <a href="#">About</a>
+                    </div>
+                </div>
+                
+            </div> 
+                
+            
+            
         </div>
             
             <div id="content">
@@ -62,6 +80,31 @@
             </div>
             
         </div>
+        
+        <!-- JAVASCRIPT -->
+        
+        <script>
+            /* When the user clicks the button, toggle between hiding & showing the menu */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            /* Close the menu if the user clicks outside */
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+        
+                var dropdown = document.getElementsByClassName("dropdown-conent");
+                var i;
+                for (i - 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+        
     </body>
 
     <footer>

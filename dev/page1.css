@@ -34,6 +34,8 @@ html, body {
     max-width: 20vw;
 }
 
+/* BUTTONS */
+
 .topButtons {
     display: inline;
     position: relative;
@@ -57,6 +59,56 @@ html, body {
 button {
     border: 0;
 }
+
+/* DROPDOWN BUTTON */
+.dropbtn {
+    display: inline;
+    background-color: #FFAE19;
+    color: #400040;
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9f7f9f;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    left: 80vw;
+    top: -50vh;
+    display: inline-block;   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: "Quicksand";
+    color: #400040;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
 
 .tagline {
     text-align: center;
