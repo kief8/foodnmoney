@@ -1,10 +1,9 @@
 html, body {
     margin: 0;
     overflow-x: hidden;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     background-color: #FFAE19;
-    max-width: 100%;
 }
 
 /* FONTS */
@@ -13,12 +12,14 @@ html, body {
     src: url("../fonts/timeforsalad.ttf");
 }
 
+/*
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
+
 
 .nav {
     position: relative;
@@ -32,6 +33,60 @@ html, body {
     border: 0;
     background-color: #FFAE19;
     color: #400040;
+}
+*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #FFAE19;
+    color: #400040;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9f7f9f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float: right;
+    position: relative;
+    top: 150px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d8ccd8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: "Quicksand";
+    color: #400040;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu (us JS to add this class to the .dropdown-content container when the user clicks the dropdown menu) */
+.show {
+    display: block;
 }
 
 .title {
