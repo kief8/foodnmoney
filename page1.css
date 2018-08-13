@@ -185,7 +185,7 @@ button {
     padding: 0px;
 }
 
-#youtubeLink p {
+#youtubeLink a {
     padding: 0;
     margin: 0;
     font-family: "Roboto";
