@@ -36,6 +36,11 @@ html, body {
 
 /* BUTTONS */
 
+a:link, a:visited {
+    color: #400040;
+    text-decoration: none;
+}
+
 .topButtons {
     display: inline;
     position: relative;
