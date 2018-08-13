@@ -9,7 +9,7 @@ html, body {
 /* FONTS */
 @font-face {
     font-family: "salad";
-    src: url("../fonts/timeforsalad.ttf");
+    src: url("font/timeforsalad.ttf");
 }
 
 .flex-container {
@@ -135,10 +135,11 @@ button {
 }
 
 .divide p {
-    font-size: 42px;
+    font-size: 44px;
     color: white;
-    font-family: "salad", "Fugaz One";
+    font-family: "salad";
     -webkit-text-stroke: 2px black;
+    text-transform: capitalize;
 }
 
 .fnmDescription {
@@ -166,7 +167,7 @@ button {
 }
 
 #subscribe {
-    font-family: "salad", "Fugaz One";
+    font-family: "salad";
     font-size: 25px;
     color: white;
     -webkit-text-stroke: 1.5px black;
