@@ -73,6 +73,7 @@ button {
 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #9f7f9f;
+    border: none;
 }
 
 .dropdown {
