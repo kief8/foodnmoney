@@ -9,7 +9,7 @@ html, body {
 /* FONTS */
 @font-face {
     font-family: "salad";
-    src: url("fonts/timeforsalad.ttf");
+    src: url("./fonts/timeforsalad.ttf");
 }
 
 .flex-container {
