@@ -21,6 +21,7 @@ html, body {
 }
 
 .head {
+    position: relative;
     background-color: #FFAE19;
     max-width: 100%;
     max-height: 40vh;
@@ -46,10 +47,10 @@ a:link, a:visited {
 .topButtons {
     margin: auto;
     display: inline;
-    position: relative;
-    left: 79vw;
-    top: -38.5vh;
-    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
 }
 
 .topButtons button {
@@ -73,7 +74,6 @@ button {
     display: inline;
     background-color: #FFAE19;
     color: #400040;
-    padding: 16px;
     font-size: 40px;
     border: none;
     cursor: pointer;
@@ -86,9 +86,6 @@ button {
 
 .dropdown {
     float: right;
-    position: relative;
-    left: 80vw;
-    top: -50vh;
     display: inline-block;   
 }
 
