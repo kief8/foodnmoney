@@ -1,9 +1,8 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    overflow: hidden;
 }
 
 .flex-container {
@@ -15,23 +14,19 @@ html, body {
     height: 100%;
 }
 
-/* HEADER */
-
 .topBar {
     position: absolute;
     width: 100vw;
-    height: auto;
+    height: 18vh;
     top: 0;
-    background-color: #f9ca24;
+    background-color: #FFAE19;
 }
 
-.title {
-    position: relative;
+.topBar h1 {
     text-align: center;
-    font-family: "Cooper STD";
+    font-family: "Helvetica";
     font-size: 45px;
     color: #400040;
-    text-shadow: 2px 2px white;
 }
 
 /* BUTTONS */ 
@@ -46,7 +41,7 @@ html, body {
 #socialMedia {
     font-size: 25px;
     border: 0;
-    background-color: #f9ca24;
+    background-color: #FFAE19;
 }
 
 a:link, a:visited {
@@ -98,27 +93,17 @@ a:link, a:visited {
     display: block;
 }
 
-/* CONTENT */
-
-.content {
-    align-content: center;
-    justify-content: center;
-    position: relative;
-    top: 35px;
+.video {
+    padding: 20px;
 }
 
 .about h2 {
     text-align: center;
     color: #400040;
-    font-size: 30px;
-    font-family: "Francois One";
 }
-
-/* FOOTER */
 
 footer {
     position: relative;
-    bottom: 0;
 }
 
 .footer {
@@ -126,7 +111,7 @@ footer {
     width: 100vw;
     bottom: 0;
     max-height: 80em;
-    background-color: #f9ca24;
+    background-color: #FFAE19;
 }
 
 .footer p {

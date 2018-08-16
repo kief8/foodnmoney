@@ -22,7 +22,7 @@ html, body {
 
 .head {
     position: relative;
-    background-color: #FFAE19;
+    background-color: #f9ca24;
     max-width: 100%;
     max-height: 40vh;
     padding-right: 80vw;
@@ -53,15 +53,11 @@ a:link, a:visited {
     padding: 0;
 }
 
-.topButtons button {
-    padding: 18px;
-}
-
 #socialMedia {
-    font-size: 40px;
+    font-size: 25px;
     padding: 10px;
     border: 0;
-    background-color: #FFAE19;
+    background-color: #f9ca24;
     color: #400040;
 }
 
@@ -74,7 +70,6 @@ button {
     display: inline;
     background-color: #FFAE19;
     color: #400040;
-    font-size: 40px;
     border: none;
     cursor: pointer;
 }
@@ -204,7 +199,7 @@ button {
 }
 
 .footer {
-    background-color: #FFAE19;
+    background-color: #f9ca24;
     padding: 40px 40px 20px 40px;
     justify-content: center;
     align-items: center;

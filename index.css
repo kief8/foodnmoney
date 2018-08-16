@@ -3,7 +3,7 @@ html, body {
     overflow-x: hidden;
     max-width: 100%;
     height: 100%;
-    background-color: #FFAE19;
+    background-color: #f9ca24;
 }
 
 /* FONTS */
@@ -12,37 +12,13 @@ html, body {
     src: url("../fonts/timeforsalad.ttf");
 }
 
-/*
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.nav {
-    position: relative;
-    left: 46%;
-    top: 15px;
-}
-
-.nav button {
-    font-size: 40px;
-    padding: 10px;
-    border: 0;
-    background-color: #FFAE19;
-    color: #400040;
-}
-*/
-
 /* Dropdown Button */
 .dropbtn {
-    background-color: #FFAE19;
+    background-color: #f9ca24;
     color: #400040;
     padding: 16px;
     font-size: 30px;
-    border: none;
+    border: 0;
     cursor: pointer;
 }
 
