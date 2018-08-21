@@ -28,6 +28,7 @@ html, body {
     font-family: "Cooper STD";
     font-size: 45px;
     color: #400040;
+    text-shadow: 2px 2px white;
 }
 
 /* BUTTONS */ 
