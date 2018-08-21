@@ -18,7 +18,7 @@ html, body {
 .topBar {
     position: absolute;
     width: 100vw;
-    height: 18vh;
+    height: auto;
     top: 0;
     background-color: #f9ca24;
 }
@@ -37,6 +37,7 @@ html, body {
     top: 0;
     right: 0;
     padding: 10px;
+    height: auto;
 }
 
 #socialMedia {
@@ -94,13 +95,37 @@ a:link, a:visited {
     display: block;
 }
 
-.content h1 {
+.content {
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    display: inline-block;
     font-family: "Quicksand";
-    color: #400040;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+    left: 70px;
+}
+
+.headshot {
+    display: inline-block;
+    height: auto;
+}
+
+.headshot img {
+    max-height: 60%;
+    max-width: 60%;
+    position: relative;
+    left: 120px;
+    top: 20px;
 }
 
 footer {
     position: relative;
+    height: auto;
 }
 
 .footer {
