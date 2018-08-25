@@ -1,35 +1,34 @@
 html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto;
+}
+
+img, iframe, object {
+    max-width: 100%;
 }
 
 .flex-container {
-    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 /* HEADER */
 
-.topBar {
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    top: 0;
+.head {
+    position: relative;
     background-color: #f9ca24;
+    width: 100%;
+    max-height: auto;
 }
 
 .title {
-    position: relative;
     text-align: center;
     font-family: "Cooper STD";
-    font-size: 45px;
+    font-size: 8vh;
     color: #400040;
     text-shadow: 2px 2px white;
 }
@@ -104,40 +103,47 @@ a:link, a:visited {
     align-content: center;
     justify-content: center;
     position: relative;
-    top: 35px;
+    max-width: 100%;
+    max-height: auto;
+    padding-bottom: 10vh;
+}
+
+.content iframe {
+    max-width: 100%;
+    max-height: auto;
+    padding-top: 20px;
 }
 
 .about h2 {
+    position: relative;
+    top: -15px;
     text-align: center;
     color: #400040;
-    font-size: 30px;
+    font-size: 3vw;
     font-family: "Francois One";
 }
 
 /* FOOTER */
 
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
+    background-color: #f9ca24;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .footer {
-    position: absolute;
-    width: 100vw;
-    bottom: 0;
-    max-height: 80em;
-    background-color: #f9ca24;
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 400;
 }
 
 .footer p {
-    text-align: center;
     color: #400040;
-    font-family: "Quicksand";
-}
-
-.footer-buttons {
-    text-align: center;
-    padding-top: 10px;
 }
 
 

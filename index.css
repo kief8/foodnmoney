@@ -1,18 +1,36 @@
-html, body {
-    margin: 0;
-    overflow-x: hidden;
-    max-width: 100%;
-    height: 100%;
-    background-color: #f9ca24;
-}
-
 /* FONTS */
 @font-face {
     font-family: "salad";
     src: url("../fonts/timeforsalad.ttf");
 }
 
-/* Dropdown Button */
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+    height: auto;
+    background-color: #f9ca24;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTON */
+
+.button {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    max-width: 1vw;
+    max-height: auto;
+}
+
 .dropbtn {
     background-color: #f9ca24;
     color: #400040;
@@ -33,7 +51,7 @@ html, body {
     float: right;
     position: relative;
     top: 150px;
-    display: inline-block;
+    display: block;
 }
 
 /* Dropdown Content (Hidden by default) */
@@ -66,21 +84,25 @@ html, body {
     display: block;
 }
 
+/* CONTENT */
+
 .title {
+    display: block;
     align-items: center;
+    max-width: 100%;
+    padding: 10px;
 }
 
 h1 {
     font-family: "Helvetica";
-    font-size: 120px;
+    font-size: 10vw;
     font-weight: 700;
     color: #400040;
     text-align: left;
     letter-spacing: 5px;
-    margin-left: 25px;
 }
 
 .resizeText {
-    font-size: 90px;
+    font-size: 8vw;
     letter-spacing: 10px;
 }
