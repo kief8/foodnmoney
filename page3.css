@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "cooperSTD";
+    src: url("font/cooper_std.ttf");
+}
+
 html, body {
     overflow: auto;
     width: 100vw;
