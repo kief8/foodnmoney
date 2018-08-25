@@ -25,25 +25,25 @@ img, iframe, object {
 /*HEADER*/
 
 .head {
-    position: relative;
+    position: static;
     background-color: #f9ca24;
     width: 100%;
-    max-height: auto;
-    padding-right: 80vw; 
 }
 
-.head img {
-    position: relative;
-    left: 30px;
-    max-height: 40vh;
-    max-width: 20vw;
-    margin: auto;
+.title {
+    text-align: center;
+    font-family: "Cooper STD";
+    font-size: 8vh;
+    color: #400040;
+    text-shadow: 2px 2px white;
+    padding: 35px 0 0 0;
+    margin: 0;
 }
 
 /* BUTTONS */
 
 .button-section {
-    position: absolute;
+    position: static;
     top: 0;
     right: 0;
     padding: 10px;
@@ -126,7 +126,8 @@ a:link, a:visited {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 5px 30px 30px 30px;
+    padding: 5px 30px 5px 30px;
+    margin: 0;
 }
 
 .divide p {
@@ -143,6 +144,14 @@ a:link, a:visited {
     text-align: center;
     max-width: 600px;
     padding-bottom: 45px;
+}
+
+.logo {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-height: 65%;
+    max-width: 65%;
 }
 
 .fnmDescription h1 {
@@ -173,6 +182,8 @@ a:link, a:visited {
 
 #youtubeLink {
     padding: 0px;
+    border: 0;
+    background-color: white;
 }
 
 #youtubeLink a {

@@ -18,8 +18,8 @@ img, iframe, object {
 
 /* HEADER */
 
-.header {
-    position: relative;
+.head {
+    position: static;
     background-color: #f9ca24;
     width: 100%;
     max-height: auto;
@@ -31,12 +31,14 @@ img, iframe, object {
     font-size: 8vh;
     color: #400040;
     text-shadow: 2px 2px white;
+    padding: 35px 0 0 0;
+    margin: 0;
 }
 
 /* BUTTONS */ 
 
 .button-section {
-    position: absolute;
+    position: static;
     top: 0;
     right: 0;
     padding: 10px;
@@ -55,6 +57,12 @@ a:link, a:visited {
 }
 
 /* DROPDOWN BUTTON */
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
 
 .dropbtn {
     background-color: #FFAE19;
@@ -96,6 +104,8 @@ a:link, a:visited {
 .show {
     display: block;
 }
+
+/* END OF BUTTONS */
 
 /* CONTENT */ 
 
@@ -163,6 +173,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 10px;
 }
 
 .footer {
