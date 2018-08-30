@@ -4,7 +4,7 @@
 }
 
 html, body {
-    overflow: auto;
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
     margin: auto auto;
@@ -187,8 +187,6 @@ ul {
 /* FOOTER */
 
 footer {
-    position: relative;
-    bottom: 0;
     background-color: #f9ca24;
     justify-content: center;
     align-items: center;
@@ -202,9 +200,6 @@ footer {
     text-align: center;
     font-family: "Quicksand";
     font-weight: 400;
-}
-
-.footer p {
     color: #400040;
 }
 
