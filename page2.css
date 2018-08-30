@@ -136,15 +136,25 @@ a:link, a:visited {
     padding: 20px;
 }
 
-.about h2 {
-    position: relative;
-    top: -15px;
-    text-align: center;
-    color: #400040;
-    font-size: 4vw;
+.about {
+    max-width: 100%;
+}
+
+.container {
+    color: black;
+    font-size: 60px;
     font-family: "Francois One";
     padding: 10px;
     margin: 0;
+    text-align: center;
+    text-shadow: 5px 5px #01cdfe;
+}
+
+#sun {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 10px;
 }
 
 /* FOOTER */
