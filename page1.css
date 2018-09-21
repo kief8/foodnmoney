@@ -30,7 +30,6 @@ img, iframe, object {
 /*HEADER*/
 
 .head {
-    position: static;
     background-color: #f9ca24;
     width: 100%;
 }
@@ -38,7 +37,7 @@ img, iframe, object {
 .title {
     text-align: center;
     font-family: "cooperSTD";
-    font-size: 8vh;
+    font-size: 50px;
     color: #400040;
     text-shadow: 2px 2px white;
     padding: 35px 0 0 0;
@@ -61,14 +60,14 @@ img, iframe, object {
 /* mobile button position */ 
 
 .button-section {
-        position: static;
         text-align: center;
         padding: 7px;
         margin: 0;
+        max-width: 100%;
     }
 
 #socialMedia {
-    font-size: 25px;
+    font-size: 20px;
     border: 0;
     background-color: #f9ca24;
     color: #400040;
@@ -133,8 +132,11 @@ a:link, a:visited {
     display: block;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     text-align: center;
+}
+
+#videoPlayer {
+    padding: 15px;
 }
 
 .divide {
@@ -145,12 +147,34 @@ a:link, a:visited {
     margin: 0;
 }
 
-.divide p {
+.review {
     font-size: 44px;
     color: white;
     font-family: "salad";
     -webkit-text-stroke: 2px black;
     text-transform: capitalize;
+}
+
+.watchFull {
+    font-family: :"Quicksand";
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+#stareable {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    border: 2px solid #400040;
+    background-color: white;
+    letter-spacing: 5px;
+    padding: 3px;
+}
+
+span {
+    font-weight: 900;
 }
 
 .fnmDescription {
@@ -169,15 +193,6 @@ a:link, a:visited {
     max-width: 65%;
 }
 
-.fnmDescription h1 {
-    font-size: 50px;
-    font-family: "Quicksand";
-    color: #400040;
-    letter-spacing: 5px;
-    position: relative;
-    top: -20px;
-}
-
 .synopsis {
     font-family: "Quicksand";
     font-size: 18px;
@@ -185,14 +200,20 @@ a:link, a:visited {
     padding: 10px;
 }
 
-#subscribe {
+.subscribe {
     font-family: "salad";
-    font-size: 25px;
     color: white;
+    font-size: 25px;
     -webkit-text-stroke: 1.5px black;
     position: relative;
     bottom: -15px;
     padding: 10px;
+}
+
+
+.subscribe {
+    font-family: "salad";
+    color: white;
 }
 
 #youtubeLink {

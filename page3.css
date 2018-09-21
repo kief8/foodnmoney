@@ -57,14 +57,14 @@ img, iframe, object {
 /* mobile button position */ 
 
 .button-section {
-        position: static;
         text-align: center;
         padding: 7px;
         margin: 0;
+        max-width: 100%;
     }
 
 #socialMedia {
-    font-size: 25px;
+    font-size: 20px;
     border: 0;
     background-color: #f9ca24;
     color: #400040;
@@ -147,6 +147,10 @@ ul {
     height: auto;
     padding: 0;
     margin: 0;
+}
+
+.bold {
+    font-weight: 600;
 }
 
 .headshot {

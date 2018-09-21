@@ -25,20 +25,14 @@ img, iframe, object {
 /* HEADER */
 
 .head {
-    position: static;
-    top: 0;
     background-color: #f9ca24;
     width: 100%;
-    max-height: auto;
-    overflow: auto;
-    margin: 0;
-    padding: 0;
 }
 
 .title {
     text-align: center;
     font-family: "cooperSTD";
-    font-size: 8vh;
+    font-size: 50px;
     color: #400040;
     text-shadow: 2px 2px white;
     padding: 35px 0 0 0;
@@ -61,14 +55,14 @@ img, iframe, object {
 /* mobile button position */ 
 
 .button-section {
-        position: static;
         text-align: center;
         padding: 7px;
         margin: 0;
+        max-width: 100%;
     }
 
 #socialMedia {
-    font-size: 25px;
+    font-size: 20px;
     border: 0;
     background-color: #f9ca24;
     color: #400040;
@@ -121,40 +115,20 @@ a:link, a:visited {
 
 /* CONTENT */
 
-.content {
-    align-content: center;
-    justify-content: center;
-    position: relative;
-    max-width: 100%;
-    max-height: auto;
-    padding-bottom: 75px;
+.videoWrapper {
+    text-align: center;
+    max-width: 55%;
+    margin-top: 30px;
 }
 
-.content iframe {
-    max-width: 100%;
-    max-height: auto;
-    padding: 20px;
-}
-
-.about {
-    max-width: 100%;
-}
-
-.container {
+#comingSoon {
     color: black;
-    font-size: 60px;
+    font-size: 100px;
     font-family: "Francois One";
-    padding: 10px;
+    padding: 40px 0px 90px 0px;
     margin: 0;
     text-align: center;
     text-shadow: 5px 5px #01cdfe;
-}
-
-#sun {
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
-    padding: 10px;
 }
 
 /* FOOTER */
@@ -164,6 +138,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 0;
 }
 
 .footer {
