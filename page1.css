@@ -30,7 +30,7 @@ img, iframe, object {
 /*HEADER*/
 
 .head {
-    background-color: #f9ca24;
+    background-color: white;
     width: 100%;
 }
 
@@ -38,8 +38,7 @@ img, iframe, object {
     text-align: center;
     font-family: "cooperSTD";
     font-size: 50px;
-    color: #400040;
-    text-shadow: 2px 2px white;
+    color: black;
     padding: 35px 0 0 0;
     margin: 0;
 }
@@ -67,14 +66,21 @@ img, iframe, object {
     }
 
 #socialMedia {
-    font-size: 20px;
+    font-size: 25px;
     border: 0;
-    background-color: #f9ca24;
-    color: #400040;
+    background-color: white;
+    color: black;
+}
+
+#socialMedia_1 {
+    font-size: 35px;
+    border: 0;
+    background-color: white /*#ccccea*/;
+    color: black;
 }
 
 a:link, a:visited {
-    color: #400040;
+    color: black;
     text-decoration: none;
 }
 
@@ -94,7 +100,7 @@ a:link, a:visited {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D8CCD8;
+    background-color: #ffff47;
     min-width: 160px;
     box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
@@ -111,7 +117,7 @@ a:link, a:visited {
 }
 
 .dropdown-content a:hover {
-    background-color: #DDD;
+    background-color: #ccffff;
 }
 
 .show {
@@ -241,7 +247,7 @@ span {
 }
 
 footer {
-    background-color: #f9ca24;
+    background-color: white;
     padding: 40px 40px 20px 40px;
     justify-content: center;
     align-items: center;
@@ -251,5 +257,5 @@ footer {
     text-align: center;
     font-family: "Quicksand";
     font-weight: 400;
-    color: #400040;
+    color: black;
 }

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
+    <header>
+        
         <title>Shitty Roommate</title>
         
         <!-- Required meta tags -->
         
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!-- Bootstrap CSS -->
+        <!-- Boostrap CSS -->
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         
@@ -17,79 +16,92 @@
         
         <link rel="stylesheet" href="page2.css">
         
+        <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         
         <!-- FONTS -->
-        
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
         
-        <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         
+        <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
         
-    </head>
-    
+    </header>
+
     <body>
         
         <div class="flex-container">
+        
+        <div class="head">
+            <h1 class="title">SHITTY ROOMMATE</h1>
             
-            <div class="head">
-                
-                <h1 class="title">Shitty Roommate</h1>
-                
-                <!-- BUTTONS -->
-                
-                <div class="button-section">
-                    <button id="socialMedia">
+            <!-- BUTTONS --> 
+            
+            <div class="button-section">
+                <button id="socialMedia">
                         <a href="https://www.facebook.com/foodnmoneyproductions/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    </button>
-                    <button id="socialMedia">
-                        <a href="https://www.youtube.com/channel/UCLNAcnBfLbEjTapPNJS_eYA" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                    </button>
-                    <button id="socialMedia">
-                        <a href="https://www.instagram.com/danipagpag/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </button>
-                    
-                    <button onclick="myFunction()" class="dropbtn" id="socialMedia"><i class="fas fa-bars"></i></button>
+                </button>
+                <button id="socialMedia">
+                    <a href="https://www.youtube.com/channel/UCLNAcnBfLbEjTapPNJS_eYA" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                </button>
+                <button id="socialMedia">
+                    <a href="https://www.instagram.com/danipagpag/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                </button>
+                <button onclick="myFunction()" class="dropbtn" id="socialMedia"><i class="fas fa-bars"></i></button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="index.html">Home</a>
                         <a href="page1.html">Food n' Money</a>
                         <a href="page3.html">About</a>
                     </div>
+                
+            </div>       
+            
+        </div>
+            
+            <div id="content">
+                    
+                    <div class="videoWrapper embed-responsive embed-responsive-16by9">                    
+                        <iframe class="embed-responsive-item" id="videoPlayer" width="560" height="315" src="https://www.youtube.com/embed/3upb5eSBqag?controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>              
+                
+            <div class="divide">
+                
+
+                <p class="review_1">Coming Soon</p>
+                <p class="review_2">Coming Soon</p>
+                <p class="review_1">Coming Soon</p>
+                
+            </div>
+                
+            <div class="about">
+                
+                <div class="fnmDescription">
+                    
+                    <img class="promoImg" src="img/promo1.jpg">
+                    <img class="promoImg" src="img/promo2.jpg">
+                    <img class="promoImg" src="img/promo3.jpg">
+                    <img class="promoImg" src="img/promo4.jpg">
+                    
+                    <p class="subscribe">SUBSCRIBE ON 
+                        <button id="youtubeLink"><a href="https://www.youtube.com/channel/UCLNAcnBfLbEjTapPNJS_eYA" target="_blank">YOUTUBE!</a></button>
+                    </p>
                 </div>
                 
             </div>
-            
-            
                 
-                <div class="videoWrapper embed-responsive embed-responsive-16by9">
-                    
-                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3upb5eSBqag?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    
-                </div>
-                
-                <div class="about">
-                    
-                    <h2 id="comingSoon">COMING SOON</h2>
-                    
-                </div>
-        
+            </div>
             
-            
-        
+        </div>
         
         <!-- JAVASCRIPT -->
         
-        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-            
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         
-        <!-- Dropdown Button -->
-            
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
         <script>
             /* When the user clicks the button, toggle between hiding & showing the menu */
             function myFunction() {
@@ -112,28 +124,24 @@
             }
         </script>
         
-            <footer>
-                <div class="footer">
-                    <button id="socialMedia">
-                        <a href="https://www.facebook.com/foodnmoneyproductions/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    </button>
-                    <button id="socialMedia">
-                        <a href="https://www.youtube.com/channel/UCLNAcnBfLbEjTapPNJS_eYA" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                    </button>
-                    <button id="socialMedia">
-                        <a href="https://www.instagram.com/danipagpag/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </button>
-                    <button id="socialMedia">
-                        <a href="https://www.linkedin.com/in/daniela-pagliarello/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </button>
-        
-                    <p>&copy; Food n' Money Productions</p>
-                </div>
-            </footer>
-            
-        </div>
-        
     </body>
-    
-    
-</html>
+
+    <footer>
+        <div class="footer">
+            <button id="socialMedia_1">
+                <a href="https://www.facebook.com/foodnmoneyproductions/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </button>
+            <button id="socialMedia_1">
+                <a href="https://www.youtube.com/channel/UCLNAcnBfLbEjTapPNJS_eYA" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            </button>
+            <button id="socialMedia_1">
+                <a href="https://www.instagram.com/danipagpag/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            </button>
+            <button id="socialMedia_1">
+                <a href="https://www.linkedin.com/in/daniela-pagliarello/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </button>
+            
+               
+            <p>&copy; Food n' Money Productions</p>
+        </div>
+    </footer>

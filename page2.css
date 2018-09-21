@@ -1,3 +1,9 @@
+/* FONTS */
+@font-face {
+    font-family: "salad";
+    src: url("font/timeforsalad.ttf");
+}
+
 @font-face {
     font-family: "cooperSTD";
     src: url("font/cooper_std.ttf");
@@ -5,10 +11,9 @@
 
 html, body {
     overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto;
 }
 
 img, iframe, object {
@@ -22,10 +27,10 @@ img, iframe, object {
     align-items: center;
 }
 
-/* HEADER */
+/*HEADER*/
 
 .head {
-    background-color: #f9ca24;
+    background-color: white;
     width: 100%;
 }
 
@@ -33,13 +38,13 @@ img, iframe, object {
     text-align: center;
     font-family: "cooperSTD";
     font-size: 50px;
-    color: #400040;
+    color: black;
     text-shadow: 2px 2px white;
-    padding: 35px 0 0 0;
+    padding: 35px 10px 0 10px;
     margin: 0;
 }
 
-/* BUTTONS */ 
+/* BUTTONS */
 
 @media only screen and (min-width: 1025px) {
     .button-section {
@@ -62,18 +67,25 @@ img, iframe, object {
     }
 
 #socialMedia {
-    font-size: 20px;
+    font-size: 25px;
     border: 0;
-    background-color: #f9ca24;
-    color: #400040;
+    background-color: white;
+    color: black;
+}
+
+#socialMedia_1 {
+    font-size: 35px;
+    border: 0;
+    background-color: white;
+    color: black;
 }
 
 a:link, a:visited {
-    color: #400040;
+    color: black;
     text-decoration: none;
 }
 
-/* Dropdown Button */
+/* DROPDOWN BUTTON */
 
 .dropbtn {
     background-color: #FFAE19;
@@ -81,17 +93,17 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-.dropbtn:hover, dropbtn:focus {
-    background-color: #9F7F9F;
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9f7f9f;
     border: 0;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D8CCD8;
+    background-color: #ffff47;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
     z-index: 1;
     text-align: left;
@@ -106,7 +118,7 @@ a:link, a:visited {
 }
 
 .dropdown-content a:hover {
-    background-color: #DDD;
+    background-color: #ccffff;
 }
 
 .show {
@@ -115,38 +127,122 @@ a:link, a:visited {
 
 /* CONTENT */
 
+.tagline {
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .videoWrapper {
+    display: block;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    max-width: 55%;
-    margin-top: 30px;
 }
 
-#comingSoon {
-    color: black;
-    font-size: 100px;
-    font-family: "Francois One";
-    padding: 40px 0px 90px 0px;
+#videoPlayer {
+    padding: 30px 15px 30px 15px;
+}
+
+.divide {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
     margin: 0;
-    text-align: center;
-    text-shadow: 5px 5px #01cdfe;
 }
 
-/* FOOTER */
+.review_1, .review_2 {
+    font-size: 44px;
+    color: white;
+    font-family: "salad";
+    -webkit-text-stroke: 2px black;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px black;
+}
 
-footer {
-    background-color: #f9ca24;
+.review_1 {
+    position: relative;
+    left: 8px;
+}
+
+.review_2 {
+    position: relative;
+    left: -8px;
+    -webkit-text-stroke: 2px black;
+}
+
+.fnmDescription {
     justify-content: center;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    max-width: 600px;
+    padding-bottom: 45px;
+}
+
+.fnmDescription img {
+    padding: 5px;
+}
+
+.promoImg {
+    text-align: center;
     margin: 0;
+    padding: 0;
+}
+
+.subscribe {
+    font-family: "salad";
+    color: white;
+    font-size: 25px;
+    -webkit-text-stroke: 1.5px black;
+    position: relative;
+    bottom: -15px;
+    padding: 25px 10px 10px 10px;
+}
+
+
+.subscribe {
+    font-family: "salad";
+    color: white;
+}
+
+#youtubeLink {
+    padding: 0px;
+    border: 0;
+    background-color: white;
+}
+
+#youtubeLink a {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+    -webkit-text-stroke: 0;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    margin: auto;
+}
+
+footer {
+    background-color: white;
+    padding: 40px 40px 20px 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
-    padding: 10px;
     text-align: center;
     font-family: "Quicksand";
     font-weight: 400;
-    color: #400040;
+    color: black;
 }
-
-
